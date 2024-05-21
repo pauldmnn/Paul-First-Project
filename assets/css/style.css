@@ -87,13 +87,14 @@ main {
     height: 600px;
     width: 100%;
     max-height: auto;
-    background: url("../images/Romanian flag.webp") no-repeat center center/cover;
+    background: url("../images/Romania landscape.webp") no-repeat center center/cover;
     position: relative;
+    
 }
 
 #cover-text {
     /*Final rgba sets the opacity to semi-transparent*/
-    background-color: rgba(229, 243, 37, 0.452);
+    background-color: rgba(243, 37, 198, 0.452);
     font-size: 100%;
     position: absolute;
     bottom: 30px;
@@ -110,24 +111,40 @@ main {
 }
 
 #amazing {
-    width: 95%;
-    margin: 10px auto;
+    width: 100%;
+    margin: 0 auto;
     background: url('../images/Mountains in the winter.webp') no-repeat center/cover;
-    color: #ffffff;
+    color: #fffb00;
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 15px;
+    padding: 0;
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
     border: 2px solid white;
-    text-decoration: underline;
-
 }
 
 #amazing  h3 {
     font-size: larger;
     font-weight: bold;
     color: yellow   
+}
+
+/*Photo page*/
+#pictures img {
+    width: 100%;
+    line-height: 1em;
+
+}
+#pictures {
+    line-height: 0;
+}
+
+/*Media query for large or landscape photos 576px*/
+@media screen and (min-width: 576px) {
+    #pictures {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 
@@ -165,6 +182,22 @@ main {
     #cover-text {
         width: 300px;
         right: 50px;
+    }
+     /*Photos*/
+     #pictures {
+        column-count: 3;
+    }
+}
+
+/* Larger devices (Laptops and desktops 992px an up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    /*Photos*/
+    #pictures {
+        column-count: 4;
     }
 }
 
