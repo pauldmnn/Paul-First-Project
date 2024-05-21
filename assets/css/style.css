@@ -1,0 +1,186 @@
+/*Googl fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Asterix wildcard selector to overide default styles added by the browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*Generic project styles*/
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: initial;
+    letter-spacing: 1px;
+    color: #252525;
+}
+
+.hidden-heading {
+    display: none;
+}
+/*General styles*/
+header {
+    background-color: red;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 3px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu {
+    font-size: 100%;
+    letter-spacing: 2px;
+    list-style-type: none;
+   
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+.active {
+    border-bottom: 0.5px solid #2a2a2a;
+}
+
+/* Nav toggle*/
+
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/*main content*/
+main {
+    /* Make the main element take any extra surplus space to push footer down*/
+    flex: 1 0 auto;
+    margin-top: 40px;
+}
+
+/*Places section*/
+#places {
+    height: 600px;
+    width: 100%;
+    max-height: auto;
+    background: url("../images/Romanian flag.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /*Final rgba sets the opacity to semi-transparent*/
+    background-color: rgba(229, 243, 37, 0.452);
+    font-size: 100%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+}
+
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
+}
+
+#amazing {
+    width: 95%;
+    margin: 10px auto;
+    background: url('../images/Mountains in the winter.webp') no-repeat center/cover;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+    text-decoration: underline;
+
+}
+
+#amazing  h3 {
+    font-size: larger;
+    font-weight: bold;
+    color: yellow   
+}
+
+
+/*Media query for tablet and larger screen (768px and up)*/
+@media screen and (min-width: 768px) {
+
+    /*header*/
+    
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 350%;
+        line-height: 100px;
+        margin-left: 0 0.5rem;
+    }
+
+    /* Main content*/
+    main {
+        /*Push main content down to accomodate larger header */
+        margin-top: 70px;
+    }
+
+    /*Places*/
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+}
+
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: yellow;
+}
+
+#social-networks i {
+    font-size: 200%;
+    padding: 10%;
+    color: #0516ff;   
+}
