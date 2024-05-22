@@ -30,7 +30,7 @@ h3 {
 }
 /*General styles*/
 header {
-    background-color: red;
+    background-color: yellow;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -61,7 +61,10 @@ header a {
 }
 
 /* Nav toggle*/
-
+nav {
+    font-size: 3rm;
+    padding: 2px;
+}
 
 #nav-toggle:checked~nav {
     display: block;
@@ -72,7 +75,7 @@ header a {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 /*main content*/
@@ -144,15 +147,17 @@ main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
+    margin-top: 60px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
 #feedback { 
-    background: url('../images/Romania-map.webp');
+    background: url(../images/Romania-flag.webp);
     background-size: cover;
     background-position: 100%;
+    width: 100%;
+    max-height: auto;
     flex-grow: 1;
     padding: 20px 10% 0 10%;
     }
@@ -165,7 +170,8 @@ main {
     #feedback-form {
         color: #f2ff00;
         background-color: rgba(255, 0, 0, 0.6);
-        padding: 20px;
+        padding: 20vw 15px;
+        padding-top: -10vh;
     }
     .text-input {
         background: transparent;
@@ -181,16 +187,19 @@ main {
     .radio-button {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
-    
+
     .feedback-button {
         margin-top: 20px;
         border-radius: 2px;
         padding: 15px 32px;
         font-size: 100%;
-        background-color: #454b1b;
+        background-color: #11f320;
         color: #fafafa;
+    }
+    textarea {
+        background-color:#0bfb4376;
     }
 
     /* Footer */
@@ -200,7 +209,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: yellow;
+    background-color: #fbff00;
 }
 
 #social-networks i {
@@ -214,6 +223,16 @@ main {
     #pictures {
         column-count: 2;
         column-gap: 0;
+    }
+    #feedback {
+        background: url('../images/Romania-map.webp') no-repeat center center/cover;
+    }
+    #feedback-form {
+        max-width: 250px;
+        position: center;
+        padding-top: 10%;
+        left: 20%;
+        top: 70px;
     }
 }
 
@@ -237,15 +256,15 @@ main {
     }
 
     #logo {
-        font-size: 350%;
-        line-height: 100px;
+        font-size: 150%;
+        line-height: 50px;
         margin-left: 0 0.5rem;
     }
 
     /* Main content*/
     main {
         /*Push main content down to accomodate larger header */
-        margin-top: 70px;
+        margin-top: 20px;
     }
 
     /*Places*/
@@ -264,10 +283,10 @@ main {
         position: relative;
     }
     #feedback-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
+        max-width: 300px;
+        position: center;
+        left: 20%;
+        top: 50px;
     }
     .text-input:hover {
         border-color: #4968f3;
@@ -275,7 +294,7 @@ main {
     
     .feedback-button:hover {
         background-color: #61d1f0;
-        color: #454b1b;
+        color: #000000;
     }
 }
 
