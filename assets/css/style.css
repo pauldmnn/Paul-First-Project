@@ -7,6 +7,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     min-height: 100vh;
     display: flex;
@@ -28,6 +29,7 @@ h3 {
 .hidden-heading {
     display: none;
 }
+
 /*General styles*/
 header {
     background-color: yellow;
@@ -46,16 +48,18 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
 #menu {
     font-size: 100%;
     letter-spacing: 2px;
     list-style-type: none;
-   
+
 }
 
 #menu>li {
     margin-bottom: 1em;
 }
+
 .active {
     border-bottom: 0.5px solid #2a2a2a;
 }
@@ -92,7 +96,7 @@ main {
     max-height: auto;
     background: url("../images/Romania landscape.webp") no-repeat center center/cover;
     position: relative;
-    
+
 }
 
 #cover-text {
@@ -123,13 +127,32 @@ main {
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
-    border: 2px solid white;
+    
 }
 
-#amazing  h3 {
+#amazing h3 {
     font-size: larger;
     font-weight: bold;
-    color: yellow   
+    color: yellow
+}
+
+#about {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    color: #fafafa;
+    padding: 10px;
+    margin: 0;
+
+}
+#about h2 {
+    padding: 15px;
+    color: #000000;
+    background-color: #00bbff;
+    font-size:x-large
+}
+#about h3 {
+    font-size: larger;
 }
 
 /*Photo page*/
@@ -138,6 +161,7 @@ main {
     line-height: 1em;
 
 }
+
 #pictures {
     line-height: 0;
 }
@@ -152,7 +176,8 @@ main {
     display: flex;
     flex-direction: column;
 }
-#feedback { 
+
+#feedback {
     background: url(../images/Romania-flag.webp);
     background-size: cover;
     background-position: 100%;
@@ -160,49 +185,52 @@ main {
     max-height: auto;
     flex-grow: 1;
     padding: 20px 10% 0 10%;
-    }
-    
-    h2 {
-        color: #ffffff;
-        margin-bottom: 20px;
-    }
-    
-    #feedback-form {
-        color: #f2ff00;
-        background-color: rgba(255, 0, 0, 0.6);
-        padding: 20vw 15px;
-        padding-top: -10vh;
-    }
-    .text-input {
-        background: transparent;
-        color: #fafafa; 
-        width: 100%;
-        height: 25px;
-        margin: 5px 0 20px 0;
-        border: 1px solid #fafafa;
-        border-radius: 2px;   
-        padding: 0 5px;
-    }
-    
-    .radio-button {
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-    }
+}
 
-    .feedback-button {
-        margin-top: 20px;
-        border-radius: 2px;
-        padding: 15px 32px;
-        font-size: 100%;
-        background-color: #11f320;
-        color: #fafafa;
-    }
-    textarea {
-        background-color:#0bfb4376;
-    }
+h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
 
-    /* Footer */
+#feedback-form {
+    color: #f2ff00;
+    background-color: rgba(255, 0, 0, 0.6);
+    padding: 20vw 15px;
+    padding-top: -10vh;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.feedback-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #11f320;
+    color: #fafafa;
+}
+
+textarea {
+    background-color: #0bfb4376;
+    padding: 5px;
+}
+
+/* Footer */
 #social-networks {
     text-align: center;
     padding: 20px 10px;
@@ -215,7 +243,7 @@ main {
 #social-networks i {
     font-size: 200%;
     padding: 10%;
-    color: #0516ff;   
+    color: #0516ff;
 }
 
 /*Media query for large or landscape photos 576px*/
@@ -224,9 +252,11 @@ main {
         column-count: 2;
         column-gap: 0;
     }
+
     #feedback {
         background: url('../images/Romania-map.webp') no-repeat center center/cover;
     }
+
     #feedback-form {
         max-width: 250px;
         position: center;
@@ -241,7 +271,7 @@ main {
 @media screen and (min-width: 768px) {
 
     /*header*/
-    
+
 
     #menu {
         display: flex;
@@ -272,8 +302,9 @@ main {
         width: 300px;
         right: 50px;
     }
-     /*Photos*/
-     #pictures {
+
+    /*Photos*/
+    #pictures {
         column-count: 3;
     }
 
@@ -282,16 +313,18 @@ main {
         background-position: center;
         position: relative;
     }
+
     #feedback-form {
         max-width: 300px;
         position: center;
         left: 20%;
         top: 50px;
     }
+
     .text-input:hover {
         border-color: #4968f3;
     }
-    
+
     .feedback-button:hover {
         background-color: #61d1f0;
         color: #000000;
@@ -309,5 +342,3 @@ main {
         column-count: 4;
     }
 }
-
-
