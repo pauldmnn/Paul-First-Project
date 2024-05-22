@@ -36,7 +36,30 @@
 
     <!--Main content-->
     <main>
-        
+        <section id="feedback">
+            <form id="feedback-form" method="POST" action="https://formdump.codeinstitute.net">
+
+                <h2>Please leave feedback if you visited Romania</h2>
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" class="text-input" name="full-name" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" id="email-address" class="text-input" name="email-address" required>
+                <br>
+                <label for="your-view">Did you enjoy your trip to Romania?</label>
+                <div class="radio-button"> 
+                    <input type="radio" id="yes" name="satisfaction" value="yes" checked> 
+                    <label for="yes">Yes</label> 
+                    <input type="radio" id="no" name="satisfaction" value="no"> 
+                    <label for="no">No</label> 
+                </div> 
+                <label for="response">Please give feedback:</label> 
+                <div>
+                <textarea id="response" name="response" rows="6" cols="20" required></textarea> 
+                </div>
+                <button type="submit" class="feedback-button">Send feedback</button>
+            </form>
+        </section>
     </main>
 
     <!--Footer content-->

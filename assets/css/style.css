@@ -139,6 +139,76 @@ main {
     line-height: 0;
 }
 
+/*Feedback section*/
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+#feedback { 
+    background: url('../images/Romania-map.webp');
+    background-size: cover;
+    background-position: 100%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+    }
+    
+    h2 {
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    
+    #feedback-form {
+        color: #f2ff00;
+        background-color: rgba(255, 0, 0, 0.6);
+        padding: 20px;
+    }
+    .text-input {
+        background: transparent;
+        color: #fafafa; 
+        width: 100%;
+        height: 25px;
+        margin: 5px 0 20px 0;
+        border: 1px solid #fafafa;
+        border-radius: 2px;   
+        padding: 0 5px;
+    }
+    
+    .radio-button {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .feedback-button {
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px;
+        font-size: 100%;
+        background-color: #454b1b;
+        color: #fafafa;
+    }
+
+    /* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: yellow;
+}
+
+#social-networks i {
+    font-size: 200%;
+    padding: 10%;
+    color: #0516ff;   
+}
+
 /*Media query for large or landscape photos 576px*/
 @media screen and (min-width: 576px) {
     #pictures {
@@ -187,6 +257,26 @@ main {
      #pictures {
         column-count: 3;
     }
+
+    /*Feedback*/
+    #feedback {
+        background-position: center;
+        position: relative;
+    }
+    #feedback-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+    .text-input:hover {
+        border-color: #4968f3;
+    }
+    
+    .feedback-button:hover {
+        background-color: #61d1f0;
+        color: #454b1b;
+    }
 }
 
 /* Larger devices (Laptops and desktops 992px an up) */
@@ -202,18 +292,3 @@ main {
 }
 
 
-/* Footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 10px;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    background-color: yellow;
-}
-
-#social-networks i {
-    font-size: 200%;
-    padding: 10%;
-    color: #0516ff;   
-}
