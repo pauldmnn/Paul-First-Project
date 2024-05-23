@@ -23,7 +23,7 @@
         <a href="index.html">
             <h1 id="logo">Welcome to Romania!</h1>
         </a>
-        <input type="checked" id="nav-toggle" name="nav-toggle">
+        <input type="radio" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"></label>
         <nav>
             <ul id="menu">
@@ -46,7 +46,9 @@
                 <label for="email-address">Email Address</label>
                 <input type="email" id="email-address" class="text-input" name="email-address" required>
                 <br>
-                <label for="your-view">Did you enjoy your trip to Romania?</label>
+                <div>
+                    <h4>Did you enjoy your trip to Romania?</h4>
+                </div>
                 <div class="radio-button">
                     <input type="radio" id="yes" name="satisfaction" value="yes" checked>
                     <label for="yes">Yes</label>
@@ -64,23 +66,18 @@
 
     <!--Footer content-->
     <footer>
-        <footer>
-            <ul id="social-networks">
-                <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i
-                            class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i
-                            class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)"><i
-                            class="fa-brands fa-twitter"></i></a>
-                </li>
-
-            </ul>
-        </footer>
+        <ul id="social-networks">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+        </ul>
         <!--Font awesome kit-->
         <script src="https://kit.fontawesome.com/b5e57173f6.js" crossorigin="anonymous"></script>
     </footer>

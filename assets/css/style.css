@@ -66,7 +66,7 @@ header a {
 
 /* Nav toggle*/
 nav {
-    font-size: 3rm;
+    font-size: 2rm;
     padding: 2px;
 }
 
@@ -93,7 +93,6 @@ main {
 #places {
     height: 600px;
     width: 100%;
-    max-height: auto;
     background: url("../images/Romania landscape.webp") no-repeat center center/cover;
     position: relative;
 
@@ -127,13 +126,17 @@ main {
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
-    
+
 }
 
 #amazing h3 {
     font-size: larger;
     font-weight: bold;
     color: yellow
+}
+
+#audio {
+    position: inherit;
 }
 
 #about {
@@ -145,12 +148,14 @@ main {
     margin: 0;
 
 }
+
 #about h2 {
     padding: 15px;
     color: #000000;
     background-color: #00bbff;
-    font-size:x-large
+    font-size: x-large
 }
+
 #about h3 {
     font-size: larger;
 }
@@ -182,7 +187,7 @@ main {
     background-size: cover;
     background-position: 100%;
     width: 100%;
-    max-height: auto;
+    height: auto;
     flex-grow: 1;
     padding: 20px 10% 0 10%;
 }
@@ -196,7 +201,7 @@ h2 {
     color: #f2ff00;
     background-color: rgba(255, 0, 0, 0.6);
     padding: 20vw 15px;
-    padding-top: -10vh;
+    padding-top: 10vh;
 }
 
 .text-input {
@@ -259,7 +264,6 @@ textarea {
 
     #feedback-form {
         max-width: 250px;
-        position: center;
         padding-top: 10%;
         left: 20%;
         top: 70px;
@@ -288,7 +292,7 @@ textarea {
     #logo {
         font-size: 150%;
         line-height: 50px;
-        margin-left: 0 0.5rem;
+        margin-left: 0.5rem;
     }
 
     /* Main content*/
@@ -316,7 +320,7 @@ textarea {
 
     #feedback-form {
         max-width: 300px;
-        position: center;
+        position: inherit;
         left: 20%;
         top: 50px;
     }
