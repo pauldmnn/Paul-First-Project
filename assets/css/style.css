@@ -93,7 +93,7 @@ main {
 #places {
     height: 600px;
     width: 100%;
-    background: url("../images/Romania landscape.webp") no-repeat center center/cover;
+    background: url("../images/Romania-landscape.webp") no-repeat center center/cover;
     position: relative;
 
 }
@@ -119,7 +119,7 @@ main {
 #amazing {
     width: 100%;
     margin: 0 auto;
-    background: url('../images/Mountains in the winter.webp') no-repeat center/cover;
+    background: url('../images/Mountains-in-the-winter.webp') no-repeat center/cover;
     color: #fffb00;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 0;
