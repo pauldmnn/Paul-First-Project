@@ -41,7 +41,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 header a {
@@ -93,9 +92,8 @@ main {
 #places {
     height: 600px;
     width: 100%;
-    background: url("../images/Romania-landscape.webp") no-repeat center center/cover;
+    background: url('../images/Romania-landscape.webp') no-repeat center center/cover;
     position: relative;
-
 }
 
 #cover-text {
@@ -108,7 +106,6 @@ main {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
-
 }
 
 #cover-text>h2,
@@ -126,7 +123,6 @@ main {
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
-
 }
 
 #amazing h3 {
@@ -146,7 +142,6 @@ main {
     color: #fafafa;
     padding: 10px;
     margin: 0;
-
 }
 
 #about h2 {
@@ -164,7 +159,6 @@ main {
 #pictures img {
     width: 100%;
     line-height: 1em;
-
 }
 
 #pictures {
@@ -183,7 +177,7 @@ main {
 }
 
 #feedback {
-    background: url(../images/Romania-flag.webp);
+    background: url('../images/Romania-flag.webp');
     background-size: cover;
     background-position: 100%;
     width: 100%;
@@ -275,8 +269,6 @@ textarea {
 @media screen and (min-width: 768px) {
 
     /*header*/
-
-
     #menu {
         display: flex;
     }
