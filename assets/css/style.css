@@ -117,18 +117,21 @@ main {
     width: 100%;
     margin: 0 auto;
     background: url('../images/mountains-in-the-winter.webp') no-repeat center/cover;
-    color: #fffb00;
-    background-color: rgba(0, 0, 0, 0.6);
     padding: 0;
     text-align: center;
     flex-basis: 200px;
     flex-grow: 1;
 }
 
+#why-visit {
+    background-color: rgba(54, 249, 0, 0.332);
+    color: #ffffff;
+}
+
 #amazing h3 {
     font-size: larger;
     font-weight: bold;
-    color: yellow
+    color: #fafafa
 }
 
 #audio {
