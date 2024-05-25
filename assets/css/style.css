@@ -92,7 +92,7 @@ main {
 #places {
     height: 600px;
     width: 100%;
-    background: url('../images/Romania-landscape.webp') no-repeat center center/cover;
+    background: url('../images/romania-landscape.webp') no-repeat center center/cover;
     position: relative;
 }
 
@@ -116,7 +116,7 @@ main {
 #amazing {
     width: 100%;
     margin: 0 auto;
-    background: url('../images/Mountains-in-the-winter.webp') no-repeat center/cover;
+    background: url('../images/mountains-in-the-winter.webp') no-repeat center/cover;
     color: #fffb00;
     background-color: rgba(0, 0, 0, 0.6);
     padding: 0;
@@ -177,7 +177,7 @@ main {
 }
 
 #feedback {
-    background: url('../images/Romania-flag.webp');
+    background: url('../images/romania-flag.webp');
     background-size: cover;
     background-position: 100%;
     width: 100%;
@@ -221,7 +221,7 @@ h2 {
     padding: 15px 32px;
     font-size: 100%;
     background-color: #11f320;
-    color: #fafafa;
+    color: #000000;
 }
 
 textarea {
@@ -253,7 +253,7 @@ textarea {
     }
 
     #feedback {
-        background: url('../images/Romania-map.webp') no-repeat center center/cover;
+        background: url('../images/romania-map.webp') no-repeat center center/cover;
     }
 
     #feedback-form {
@@ -269,6 +269,7 @@ textarea {
 @media screen and (min-width: 768px) {
 
     /*header*/
+
     #menu {
         display: flex;
     }
