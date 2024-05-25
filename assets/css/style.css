@@ -65,7 +65,7 @@ header a {
 
 /* Nav toggle*/
 nav {
-    font-size: 2rm;
+    font-size: 13px;
     padding: 2px;
 }
 
@@ -167,17 +167,18 @@ main {
 
 /*Feedback section*/
 main {
+    background: url('../images/romania-flag.webp');
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 60px;
     /* Enable flex properties for child elements */
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
-#feedback {
-    background: url('../images/romania-flag.webp');
+#feedback {  
     background-size: cover;
     background-position: 100%;
     width: 100%;
@@ -224,9 +225,12 @@ h2 {
     color: #000000;
 }
 
-textarea {
-    background-color: #0bfb4376;
+.textbox {
+    background-color: #0b83fb76;
+    color: #fafafa;
     padding: 5px;
+    width: auto;
+    height: 100px;
 }
 
 /* Footer */
@@ -252,8 +256,10 @@ textarea {
         column-gap: 0;
     }
 
-    #feedback {
+    #feedback-for-container {
         background: url('../images/romania-map.webp') no-repeat center center/cover;
+        display: flex;
+        justify-content: center;
     }
 
     #feedback-form {
@@ -263,7 +269,6 @@ textarea {
         top: 70px;
     }
 }
-
 
 /*Media query for tablet and larger screen (768px and up)*/
 @media screen and (min-width: 768px) {
@@ -306,14 +311,13 @@ textarea {
     }
 
     /*Feedback*/
-    #feedback {
-        background-position: center;
-        position: relative;
+    #feedback-for-container {
+        display: flex;
+        justify-content: center;
     }
 
     #feedback-form {
         max-width: 300px;
-        position: inherit;
         left: 20%;
         top: 50px;
     }
