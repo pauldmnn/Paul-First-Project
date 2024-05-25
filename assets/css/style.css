@@ -176,6 +176,7 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
 }
 
 #feedback {  
@@ -213,7 +214,8 @@ h2 {
 .radio-button {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+
 }
 
 .feedback-button {
