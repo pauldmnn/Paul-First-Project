@@ -81,4 +81,107 @@ Yellow:
 
 ![#0516ff Hex Color](assets/images/blue.png)
 
+### Fonts
+
+Both fonts used in this project are Google Fonts.
+
+#### Roboto :
+
+- I used Roboto as the main font, as it's one of the most popular and user-friendly fonts. The Roboto font is easy to read even on the smallest devices and provides a positive user experience.
+
+#### Lato :
+
+- Lato font has been used for some headings but also for a navigation bar and menu section. Using a different font for these features helped me highlight important sections to user and made the website easier and quicker to navigate.
+
+### Images
+
+Most of the images are from my own gallery except one which was downloaded from:
+
+- Google 
+
+## The Skeleton Plane
+
+I made some some changes to my project. Some features have become unnecessary or have caused poor user experience, so I decided to make them user friendly.
+
+- The image and text for Why visit Romania was to bright and the user was unable to read the text so i introduced a background color with opacity so the user can read the text while still seeing the image in the background
+  
+[Feedback page ](assets/images/Feedback section before rectifying the error.jpg)
+
+- The feedback form was covering the footer. I adjusted the size of the form and I made it to be within the header and the footer. 
+- The textarea was not responsive for all screen types so i made it the same size for all screen types and to be responsive
+
+## The Surface Plane
+
+### Features present across the project 
+
+### Navigation bar :
+
+- Navabar is present on every page, fully responsive across all resolutions.
+- Navbar toggles to a hamburger menu on mobile devices. 
+- The user can navigate across the site freely.
+
+**Desktop** : 
+
+![Desktop navbar](testing/desktop-nav.png)
+
+**Tablet**
+
+![Tablet navbar](testing/tablet-nav.png)
+
+**Mobile** :
+
+![Mobile navbar](testing/mobile-nav.png)
+
+### Footer :
+
+- Footer is present on every page, for the user who wishes to navigate to the pages from the bottom, rather than having to scroll up.
+- Footer contains social media links that are opening in a new tab.
+
+![Footer](testing/footer.png)
+
+### Hero images :
+
+- Included to draw the user's attention and show the purpose of the website stright away.
+
+**Desktop** :
+
+![Places image desktop](testing/desktop-places.png)
+
+**Tablet**
+
+![Places image tablet](testing/tablet-places.png)
+
+**Mobile** :
+
+![Hero image mobile](testing/mobile-places.png)
+
+### Why visit section :
+
+- The about section shows the purpose of the website right away, so the user can determine if this website is useful for him within the first few minutes.
+
+![Home page - why-visit](testing/why-visit.png)
+
+### About section :
+
+- The about section tells the user about the geograpgy and history of Romania
+
+![Home page - about](testing/about.png)
+
+### Menu section :
+
+- Menu section contains information about all cocktails and mocktails business is currently serving. 
+- The user is also informed about new cocktails coming shortly.
+- This section also includes video showing new cocktails to encourage users to visit Wizzards Tower.
+
+![Menu](https://github.com/PatrycjaBlaszkowska/project-WizardsTower/blob/main/docs/testing/menu.PNG)
+
+### Contact form :
+
+- Allows users to contact businesses with any inquiries.
+- The user is also able to book activities or a table via a contact form.
+- The user is able to provide feedback to the business. 
+
+![Contact form](https://github.com/PatrycjaBlaszkowska/project-WizardsTower/blob/main/docs/testing/contact-form.PNG)
+
+
 
