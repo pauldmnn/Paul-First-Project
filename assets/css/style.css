@@ -23,7 +23,7 @@ h3 {
     font-family: 'Roboto', sans-serif;
     text-transform: initial;
     letter-spacing: 1px;
-    color: #252525;
+    color: #3a3a3a;
 }
 
 .hidden-heading {
@@ -60,7 +60,7 @@ header a {
 }
 
 .active {
-    border-bottom: 0.5px solid #2a2a2a;
+    border-bottom: 0.5px solid #3a3a3a;
 }
 
 /* Nav toggle*/
@@ -110,7 +110,7 @@ main {
 
 #cover-text>h2,
 #cover-text>h3 {
-    color: #ffffff;
+    color: #fafafa;
 }
 
 #amazing {
@@ -125,7 +125,7 @@ main {
 
 #why-visit {
     background-color: rgba(54, 249, 0, 0.332);
-    color: #ffffff;
+    color: #fafafa;
 }
 
 #amazing h3 {
@@ -149,7 +149,7 @@ main {
 
 #about h2 {
     padding: 15px;
-    color: #000000;
+    color: #3a3a3a;
     background-color: #00bbff;
     font-size: x-large
 }
@@ -192,12 +192,12 @@ main {
 }
 
 h2 {
-    color: #ffffff;
+    color: #fafafa;
     margin-bottom: 20px;
 }
 
 #feedback-form {
-    color: #f2ff00;
+    color: yellow;
     background-color: rgba(255, 0, 0, 0.6);
     padding: 20vw 15px;
     padding-top: 10vh;
@@ -227,7 +227,7 @@ h2 {
     padding: 15px 32px;
     font-size: 100%;
     background-color: #11f320;
-    color: #000000;
+    color: #3a3a3a;
 }
 
 .textbox {
@@ -245,7 +245,7 @@ h2 {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #fbff00;
+    background-color: yellow;
 }
 
 #social-networks i {
@@ -333,7 +333,7 @@ h2 {
 
     .feedback-button:hover {
         background-color: #61d1f0;
-        color: #000000;
+        color: #3a3a3a;
     }
 }
 
