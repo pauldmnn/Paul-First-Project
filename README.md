@@ -295,7 +295,7 @@ However, during testing process below browsers have been used :
 The master branch of this repository is the most current version and has been used for the deployed version of the site.
 The Code Institiue student template was used to create this project.
 
-[Code Institute Template for CodeAnywhere](https://github.com/Code-Institute-Org/ci-full-template)
+[Code Institute Template ](https://github.com/Code-Institute-Org/ci-full-template)
 
 1. Click **Use This Template** button.
 2. Give your repository a name, and description.
@@ -334,7 +334,7 @@ The Code Institiue student template was used to create this project.
 ### Code :
 
 - [Code Institute, Love running project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) :
-    - Inspiration for a feedback page/form.
+    - Inspiration for the feedback page/form.
 
 - [Font Awesome](https://fontawesome.com/) :
     - Used for all icons across the website.
