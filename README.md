@@ -99,6 +99,12 @@ Most of the images are from my own gallery except one which was downloaded from:
 
 - Google 
 
+### Audio
+
+The audio sound was downloaded from: 
+
+- Mixkit
+
 ## The Skeleton Plane
 
 I made some some changes to my project. Some features have become unnecessary or have caused poor user experience, so I decided to make them user friendly.
@@ -139,7 +145,7 @@ I made some some changes to my project. Some features have become unnecessary or
 
 ![Footer](testing/footer.png)
 
-### Hero images :
+### Places images :
 
 - Included to draw the user's attention and show the purpose of the website stright away.
 
@@ -167,21 +173,97 @@ I made some some changes to my project. Some features have become unnecessary or
 
 ![Home page - about](testing/about.png)
 
-### Menu section :
+### Photos section :
 
-- Menu section contains information about all cocktails and mocktails business is currently serving. 
-- The user is also informed about new cocktails coming shortly.
-- This section also includes video showing new cocktails to encourage users to visit Wizzards Tower.
+- The Photos section contains nature and landmarks photos from Romania.
+- The user will be able to see different places from Romania which I visited 
 
-![Menu](https://github.com/PatrycjaBlaszkowska/project-WizardsTower/blob/main/docs/testing/menu.PNG)
+![Photos ](testing/photos-section.png)
 
-### Contact form :
+### Feedback form :
 
-- Allows users to contact businesses with any inquiries.
-- The user is also able to book activities or a table via a contact form.
-- The user is able to provide feedback to the business. 
+- This will allow the user to submit feedback about Romania and the website.
+- The user must complete all fields in the form to be able to submit it.
 
-![Contact form](https://github.com/PatrycjaBlaszkowska/project-WizardsTower/blob/main/docs/testing/contact-form.PNG)
+![Feedback form](testing/feedback-form.png)
+
+## Testing
+
+### Manual testing
+
+- Navigation bar :
+    - Navigation bar is fully responsive on large/medium/small resolutions.
+    - All links to pages are working properly.
+    - Hover CSS is correctly working.
+
+- Footer :
+    - Footer is fully responsive on large/medium/small resolutions.
+    - Social media links are working and opening in a new tab.
+    - Links to pages are working properly.
+
+- Places image :
+    - Image is responsive and adjusting to different screen size
+
+- Why visit Romania:
+    - Image is responsive and adjusting to different screen size
+
+- Audio :
+    - The audio player requires the play action to play the sound
+    - The audio player is muted so the user will have to unmute to be able to hear the sound
+    - The player works on all devices  
+    - Menu and contact form background photos are linked correctly.
+    - Images are successfully scaling on mobile devices. 
+
+- Photos:
+    - Grid system is working as intended successfully changing amount of collumns on smaller devices making website fully responsive. 
+
+- Feedback form :
+    - The form is working as intended.
+    - The form is successfully redirecting the user to the "thank you" page.
+    - Submit button is working correctly. 
+    - The form is looking good on smaller devices.
+
+- Thank you page :
+    - The page is successfully appearing to the user after filling up the form.
+    - The button taking the user back to the home page is working.
+
+#### Devices used during testing:
+
+- HP laptop
+- Iphone 14 Pro Max
+- Iphone 13 Pro
+
+### Chrome Dev Tools
+
+Chrome dev tools was used throughout the development of the project to test responsiveness. 
+Responsiveness was tested using Dev Tools to emulate the following devices :
+
+- Iphone SE
+- Iphone XR
+- Iphone 12 Pro
+- Iphone 14 Pro Max
+- Pixel 7
+- Samsung Galaxy S8+
+- Samsung Galaxy S20 Ultra
+- iPad Mini
+- iPad Air
+- iPad Pro
+- Surface Pro 7
+- Surface Duo
+- Galaxy Fold
+- Samsung Galaxy A51/71
+- Nest Hub
+- Nest Hub Max
+
+### Browser Testing
+
+During development, webpage was mainly tested on Google Chrome. 
+However, during testing process below browsers have been used :
+
+- Google Chrome
+- Microsoft Edge
+- Safari
+
 
 
 
