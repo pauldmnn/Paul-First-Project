@@ -97,7 +97,7 @@ Both fonts used in this project are Google Fonts.
 
 Most of the images are from my own gallery except one which was downloaded from:
 
-- Google 
+- Wikipedia 
 
 ### Audio
 
@@ -111,7 +111,7 @@ I made some some changes to my project. Some features have become unnecessary or
 
 - The image and text for Why visit Romania was to bright and the user was unable to read the text so i introduced a background color with opacity so the user can read the text while still seeing the image in the background
   
-[Feedback page ](assets/images/Feedback section before rectifying the error.jpg)
+[Feedback page ](assets/images/Feedback-section-before-rectifying-the-error.png)
 
 - The feedback form was covering the footer. I adjusted the size of the form and I made it to be within the header and the footer. 
 - The textarea was not responsive for all screen types so i made it the same size for all screen types and to be responsive
@@ -263,6 +263,88 @@ However, during testing process below browsers have been used :
 - Google Chrome
 - Microsoft Edge
 - Safari
+
+### Validation
+
+[HTML validator](https://validator.w3.org/)
+
+- 0 errors
+- 0 warnings
+
+![HTML validator results](testing/html-validation.png)
+
+[CSS validator](https://jigsaw.w3.org/css-validator/)
+
+- 0 errors
+- 0 warnings
+- 0 info messages
+
+![CSS validator results](testing/css-validation.png)
+
+### Bugs and Fixes
+
+- The feedback form for larger screens was not contanied within the main:
+    - Resolved by resizing the feedback form and made it to push the footer down. 
+    ![Bug found](assets/images/feedback-section-before-rectifying-the-error.png)
+
+    - Bug fixed
+     ![Bug fixed](testing/feedback-after-rectifying-the-error.png)
+
+## Deployment 
+
+The master branch of this repository is the most current version and has been used for the deployed version of the site.
+The Code Institiue student template was used to create this project.
+
+[Code Institute Template for CodeAnywhere](https://github.com/Code-Institute-Org/ci-full-template)
+
+1. Click **Use This Template** button.
+2. Give your repository a name, and description.
+3. Open [Github](https://github.com/) and log into your account.
+4. Click **New Workspace** button.
+5. Create a workspace from your project repository by creating a clone.
+
+### Creating a clone
+
+1. From the repository, click **Code**.
+2. In the **Clone >> HTTPS** section, copy the clone URL for the repository.
+3. Paste a link into the designated area on the github. 
+
+### Forking
+
+1. From the repository, click **Fork**.
+2. Give your repository a name.
+3. Click **Create fork**.
+
+## Credits
+
+### Images :
+
+- Wikipedia
+
+![Map of Romania](https://en.wikipedia.org/wiki/Geography_of_Romania#/media/File:Romania_location_map_Topographic.png)
+
+
+
+### Audio :
+
+- Mixkit
+
+[Birds chirping near a river](https://mixkit.co/free-sound-effects/nature/)
+
+### Code :
+
+- [Code Institute, Love running project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) :
+    - Inspiration for a feedback page/form.
+
+- [Font Awesome](https://fontawesome.com/) :
+    - Used for all icons across the website.
+
+### Photos
+
+- I used my own gallery for this section 
+
+
+## Thank you to everyone who read this documentation! 
 
 
 
