@@ -309,12 +309,6 @@ The Code Institiue student template was used to create this project.
 2. In the **Clone >> HTTPS** section, copy the clone URL for the repository.
 3. Paste a link into the designated area on the github. 
 
-### Forking
-
-1. From the repository, click **Fork**.
-2. Give your repository a name.
-3. Click **Create fork**.
-
 ## Credits
 
 ### Images :
