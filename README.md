@@ -321,9 +321,7 @@ The Code Institiue student template was used to create this project.
 
 - Wikipedia
 
-![Map of Romania](https://en.wikipedia.org/wiki/Geography_of_Romania#/media/File:Romania_location_map_Topographic.png)
-
-
+![Map of Romania](https://en.wikipedia.org/wiki/Geography_of_Romania#)
 
 ### Audio :
 
