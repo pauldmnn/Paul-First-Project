@@ -110,10 +110,9 @@ The audio sound was downloaded from:
 I made some some changes to my project. Some features have become unnecessary or have caused poor user experience, so I decided to make them user friendly.
 
 - The image and text for Why visit Romania was to bright and the user was unable to read the text so i introduced a background color with opacity so the user can read the text while still seeing the image in the background
-  
-[Feedback page ](assets/images/Feedback-section-before-rectifying-the-error.png)
 
 - The feedback form was covering the footer. I adjusted the size of the form and I made it to be within the header and the footer. 
+
 - The textarea was not responsive for all screen types so i made it the same size for all screen types and to be responsive
 
 ## The Surface Plane
@@ -211,8 +210,6 @@ I made some some changes to my project. Some features have become unnecessary or
     - The audio player requires the play action to play the sound
     - The audio player is muted so the user will have to unmute to be able to hear the sound
     - The player works on all devices  
-    - Menu and contact form background photos are linked correctly.
-    - Images are successfully scaling on mobile devices. 
 
 - Photos:
     - Grid system is working as intended successfully changing amount of collumns on smaller devices making website fully responsive. 
@@ -266,6 +263,8 @@ However, during testing process below browsers have been used :
 
 ### Validation
 
+- I checked the validation for each individual HTML file by direct input into the validator.
+
 [HTML validator](https://validator.w3.org/)
 
 - 0 errors
@@ -273,6 +272,7 @@ However, during testing process below browsers have been used :
 
 ![HTML validator results](testing/html-validation.png)
 
+- I checked the CSS file by direct input into the validator.
 [CSS validator](https://jigsaw.w3.org/css-validator/)
 
 - 0 errors
@@ -292,7 +292,7 @@ However, during testing process below browsers have been used :
 
 ## Deployment 
 
-The master branch of this repository is the most current version and has been used for the deployed version of the site.
+The main branch of this repository is the most current version and has been used for the deployed version of the site.
 The Code Institiue student template was used to create this project.
 
 [Code Institute Template ](https://github.com/Code-Institute-Org/ci-full-template)
@@ -309,13 +309,17 @@ The Code Institiue student template was used to create this project.
 2. In the **Clone >> HTTPS** section, copy the clone URL for the repository.
 3. Paste a link into the designated area on the github. 
 
+### Forking
+
+1. From the repository, click **Fork**.
+2. Give your repository a name.
+3. Click **Create fork**.
+
 ## Credits
 
 ### Images :
 
-- Wikipedia
-
-![Map of Romania](https://en.wikipedia.org/wiki/Geography_of_Romania#)
+- Project image for Romania map was taken from Wikipedia
 
 ### Audio :
 
