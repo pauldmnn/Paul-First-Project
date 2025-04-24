@@ -49,7 +49,7 @@ header a {
 }
 
 #menu {
-    font-size: 100%;
+    font-size: 20px;
     letter-spacing: 2px;
     list-style-type: none;
 
@@ -86,6 +86,7 @@ main {
     /* Make the main element take any extra surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 40px;
+    padding: 20px;
 }
 
 /*Places section*/
@@ -203,14 +204,14 @@ h2 {
 }
 
 #feedback-form {
-    color: yellow;
+    color: #fafafa;
     background-color: rgba(255, 0, 0, 0.6);
     padding: 20vw 15px;
     padding-top: 10vh;
 }
 
 .text-input {
-    background: transparent;
+    background: #0b83fb76;
     color: #fafafa;
     width: 100%;
     height: 25px;
