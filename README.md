@@ -10,10 +10,10 @@ With this project i want to show people different beautiful places from Romania 
 Users will be able to navigate through the website using a functional navigation bar which will take the user to three different sections of the web-site. On the home page the user will be able to read about Romania and why visit Romania. There is a Photo section where I have included some photos from Romania. I have created a Feedback section which will allow the user to complete a form and submit feedback. 
 
 - This is a link to the live site.
-[Link to a live site](https://pauldmnn.github.io/Paul-First-Project/)
+[Link to a live site](https://pauldmnn.github.io/Paul-First-Project/) 
 
 - The site is responsive on all devices.
-![Responsive on all devices](testing\responsiveness.png)
+![Responsive on all devices](testing/responsiveness.png)
 
 #### Thank you for visiting Romania
 
